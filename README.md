@@ -1,4 +1,4 @@
-# 🏆 AI Co-Founder - Complete Platform
+# 🏆 AI Co-Founder Agent - Complete Platform
 
 An AI-powered Business Idea Validation Platform that analyzes and validates startup ideas using multi-agent AI analysis. This project won the AI Hackathon competition!
 
@@ -7,7 +7,12 @@ An AI-powered Business Idea Validation Platform that analyzes and validates star
 ## 📰 LinkedIn Post
 
 Check out the announcement and celebration of this winning project:
-👉 [LinkedIn Post](https://www.linkedin.com/posts/your-profile-link)
+👉 [LinkedIn Post](https://www.linkedin.com/posts/subitha-murugesan_adding-another-win-to-hackathon-season-activity-7419665208748687360-A4ut?utm_source=share&utm_medium=member_desktop&rcm=ACoAACfyd_cBS1bNrbpRnQqT-q7rnRa85rIznUs)
+
+
+## 🎉 Celebrating the Win
+
+This project successfully competed in the AI Hackathon and emerged as the winner! The combination of practical business intelligence, beautiful user interface, and powerful Agentic AI analysis impressed the judges.
 
 ## 🎯 Project Overview
 
@@ -207,30 +212,6 @@ docker run -p 8000:8000 -e OPENAI_API_KEY=your_key ai-cofounder-backend
 gunicorn -w 4 -k uvicorn.workers.UvicornWorker app.main:app
 ```
 
-## 🔒 Security
-
-- Never commit `.env` files with API keys
-- Use environment variables for sensitive data
-- Validate all user inputs
-- Implement rate limiting in production
-- Use HTTPS for all API calls in production
-
-## 📈 Performance Tips
-
-- Cache frequently analyzed ideas
-- Implement request queuing for high traffic
-- Monitor LLM API usage and costs
-- Consider async processing for large batches
-
-## 🤝 Contributing
-
-When extending the project:
-
-1. **Frontend:** Add new components to `src/components/` following existing patterns
-2. **Backend:** Add new agents in `agents.py` and tasks in `tasks.py`
-3. **Testing:** Update tests in respective README files
-4. **Documentation:** Update relevant README files
-
 ## 📚 Resources
 
 - [FastAPI Docs](https://fastapi.tiangolo.com/)
@@ -239,38 +220,4 @@ When extending the project:
 - [Tailwind CSS Docs](https://tailwindcss.com/docs)
 - [Vite Docs](https://vitejs.dev/)
 
-## 🐛 Troubleshooting
 
-### Frontend Issues
-- Clear `node_modules` and reinstall: `rm -rf node_modules && npm install`
-- Check that backend is running on port 8000
-- Verify API endpoint configuration
-
-### Backend Issues
-- Ensure `.env` file has valid API keys
-- Check Python version (3.8+)
-- Verify all dependencies: `pip list`
-- Check logs for detailed error messages
-
-## 📞 Support
-
-For issues or questions:
-1. Check the relevant README (frontend or backend)
-2. Review the troubleshooting section
-3. Check project documentation files
-
-## 🎉 Celebrating the Win
-
-This project successfully competed in the AI Hackathon and emerged as the winner! The combination of practical business intelligence, beautiful user interface, and powerful AI analysis impressed the judges.
-
-**Share your support:** Check out the [LinkedIn Post](https://www.linkedin.com/posts/your-profile-link) announcing this achievement!
-
-## 📄 License
-
-This project was created for the AI Hackathon competition.
-
----
-
-**Built with ❤️ by the AI Co-Founder Team**
-
-*Empowering entrepreneurs with intelligent business insights powered by AI*
