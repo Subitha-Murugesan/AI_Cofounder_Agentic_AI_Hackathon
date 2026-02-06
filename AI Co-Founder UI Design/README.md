@@ -2,7 +2,7 @@
 
 A modern, interactive web application built with React and TypeScript that provides an intelligent business idea validation and analysis platform powered by AI agents.
 
-## 🎯 Project Overview
+## Project Overview
 
 The AI Co-Founder frontend is a user-friendly interface that allows entrepreneurs and innovators to:
 - Input and validate their business ideas
@@ -13,7 +13,7 @@ The AI Co-Founder frontend is a user-friendly interface that allows entrepreneur
 - Plan minimum viable products (MVPs)
 - Get comprehensive insights and recommendations
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework:** React 18+ with TypeScript
 - **Build Tool:** Vite
@@ -28,12 +28,12 @@ The AI Co-Founder frontend is a user-friendly interface that allows entrepreneur
 - **Toast Notifications:** Sonner
 - **Theme Management:** Next Themes
 
-## 📦 Prerequisites
+## Prerequisites
 
 - Node.js 16+ and npm/yarn
 - The AI Co-Founder Backend API running (check backend README)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Installation
 
@@ -70,7 +70,7 @@ npm run build
 
 This creates an optimized production build in the `dist/` directory.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -103,7 +103,7 @@ src/
 │   └── fonts.css
 ```
 
-## 🎨 Key Components
+## Key Components
 
 - **Header:** Navigation and branding
 - **SideNavigation:** Navigation between different sections
@@ -124,25 +124,25 @@ The frontend communicates with the backend API at `http://localhost:8000` (or co
 
 - **POST `/validate-idea`** - Sends the business idea and receives comprehensive analysis from AI agents
 
-## 🎯 Features
+## Features
 
-- ✅ Interactive business idea input
-- ✅ Real-time AI-powered analysis
-- ✅ Multi-step analysis workflow
-- ✅ Business-specific insights (market, users, competition, revenue, MVP)
-- ✅ Responsive design for all devices
-- ✅ Dark/Light theme support
-- ✅ Toast notifications for user feedback
-- ✅ Beautiful UI with Radix UI components
-- ✅ Drag-and-drop support for content organization
+- Interactive business idea input
+- Real-time AI-powered analysis
+- Multi-step analysis workflow
+- Business-specific insights (market, users, competition, revenue, MVP)
+- Responsive design for all devices
+- Dark/Light theme support
+- Toast notifications for user feedback
+- Beautiful UI with Radix UI components
+- Drag-and-drop support for content organization
 
-## 📝 Available Scripts
+## Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build locally
 
-## 🌍 Environment Variables
+## Environment Variables
 
 Create a `.env` file if needed for API configuration (url, etc.)
 
