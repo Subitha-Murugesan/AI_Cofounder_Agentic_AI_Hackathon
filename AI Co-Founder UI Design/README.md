@@ -146,14 +146,6 @@ The frontend communicates with the backend API at `http://localhost:8000` (or co
 
 Create a `.env` file if needed for API configuration (url, etc.)
 
-## 📚 Component Guidelines
-
-Refer to [Guidelines.md](./guidelines/Guidelines.md) for component usage and best practices.
-
-## 📄 Additional Documentation
-
-- [ATTRIBUTIONS.md](./ATTRIBUTIONS.md) - Third-party libraries and credits
-- [Guidelines.md](./guidelines/Guidelines.md) - Development guidelines
 
 
 
