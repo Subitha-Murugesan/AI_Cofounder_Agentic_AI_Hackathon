@@ -1,8 +1,8 @@
-# AI Co-Founder Backend
+# AI Co-Founder Agents Backend with CrewAI
 
 A sophisticated backend API built with FastAPI and CrewAI that analyzes and validates business ideas using multiple AI agents working collaboratively. Each agent specializes in different aspects of business analysis.
 
-## 🎯 Project Overview
+## Project Overview
 
 The AI Co-Founder backend provides intelligent business idea validation through a multi-agent AI system. The system consists of 7 specialized AI agents that work sequentially to provide comprehensive analysis on:
 
@@ -14,7 +14,7 @@ The AI Co-Founder backend provides intelligent business idea validation through 
 6. **MVP Agent** - Plans the minimum viable product
 7. **Evaluation Agent** - Provides final assessment and recommendations
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework:** FastAPI
 - **Server:** Uvicorn
@@ -23,13 +23,13 @@ The AI Co-Founder backend provides intelligent business idea validation through 
 - **Environment Management:** python-dotenv
 - **Language:** Python 3.8+
 
-## 📦 Prerequisites
+## Prerequisites
 
 - Python 3.8 or higher
 - pip (Python package manager)
 - API key for your LLM provider (e.g., OpenAI, Anthropic, etc.)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone and Navigate
 
@@ -80,7 +80,7 @@ The API will be available at `http://localhost:8000`
 - **Swagger UI:** `http://localhost:8000/docs`
 - **ReDoc:** `http://localhost:8000/redoc`
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ai-cofounder-backend/
@@ -97,7 +97,7 @@ ai-cofounder-backend/
 └── README.md          # This file
 ```
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### POST `/validate-idea`
 
@@ -125,7 +125,7 @@ curl -X POST "http://localhost:8000/validate-idea" \
 }
 ```
 
-## 📋 File Descriptions
+## File Descriptions
 
 ### `main.py`
 Defines the FastAPI application and the `/validate-idea` endpoint that accepts business ideas and returns analysis results from the CrewAI crew.
@@ -151,7 +151,7 @@ Orchestrates the multi-agent system:
 ### `test_crew.py`
 Test script for verifying the crew functionality without the API server.
 
-## 🧪 Testing
+## Testing
 
 ### Test the Crew Directly
 
@@ -178,7 +178,7 @@ print(response.json())
 "
 ```
 
-## 🔄 Workflow
+##  Workflow
 
 1. **User submits idea** via API endpoint
 2. **FastAPI** validates the request and passes it to the crew
@@ -191,17 +191,17 @@ print(response.json())
 9. **Evaluation Agent** synthesizes all findings and provides final assessment
 10. **Results returned** as comprehensive analysis JSON
 
-## 🎨 Features
+## Features
 
-- ✅ Multi-agent AI system for comprehensive analysis
-- ✅ Sequential agent execution for logical workflow
-- ✅ Specialized agents for different business aspects
-- ✅ RESTful API with Swagger documentation
-- ✅ Robust error handling
-- ✅ Extensible architecture for adding new agents/tasks
-- ✅ Support for multiple LLM providers
+- Multi-agent AI system for comprehensive analysis
+- Sequential agent execution for logical workflow
+- Specialized agents for different business aspects
+- RESTful API with Swagger documentation
+- Robust error handling
+- Extensible architecture for adding new agents/tasks
+- Support for multiple LLM providers
 
-## 📊 Analysis Components
+## Analysis Components
 
 The system analyzes business ideas across these dimensions:
 
@@ -213,7 +213,7 @@ The system analyzes business ideas across these dimensions:
 - **MVP Strategy** - What's the initial product scope?
 - **Overall Viability** - Should this idea be pursued?
 
-## 🚀 Deployment
+## Deployment
 
 ### Production Deployment
 
@@ -249,54 +249,9 @@ docker build -t ai-cofounder-backend .
 docker run -p 8000:8000 -e OPENAI_API_KEY=your_key ai-cofounder-backend
 ```
 
-## 🔒 Security Considerations
-
-- Never commit `.env` files with API keys
-- Use environment variables for sensitive configuration
-- Validate and sanitize all user input
-- Implement rate limiting for production use
-- Add authentication if needed
-- Use HTTPS in production
-
-## 📈 Performance Optimization
-
-- Agent tasks can be modified for faster or more detailed analysis
-- Consider caching for frequently analyzed ideas
-- Implement request queuing for high-traffic scenarios
-- Monitor LLM API usage and costs
-
-## 🤝 Contributing
-
-When extending the system:
-
-1. **Adding new agents:**
-   - Define agent in `agents.py`
-   - Create corresponding task in `tasks.py`
-   - Add to crew in `crew.py`
-
-2. **Modifying analysis:**
-   - Update task descriptions in `tasks.py`
-   - Adjust agent goals in `agents.py`
-
-3. **Testing:**
-   - Update `test_crew.py` with new test cases
-   - Test via API endpoints in `main.py`
-
-## 📚 Resources
+## Resources
 
 - [FastAPI Documentation](https://fastapi.tiangolo.com/)
 - [CrewAI Documentation](https://docs.crewai.com/)
 - [Pydantic Documentation](https://docs.pydantic.dev/)
-
-## 🐛 Troubleshooting
-
-### API Key Errors
-- Ensure `.env` file exists and contains valid API keys
-- Check that `python-dotenv` is properly loading the environment
-
-### Connection Errors
-- Verify FastAPI server is running on the correct port
-- Check firewall settings if accessing remotely
-- Ensure frontend is configured to use correct API URL
-
 
