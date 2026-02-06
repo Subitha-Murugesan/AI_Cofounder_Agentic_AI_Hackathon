@@ -4,15 +4,17 @@ An AI-powered Business Idea Validation Platform that analyzes and validates star
 
 **Competition Winner** | **Multi-Agent AI** | **Business Intelligence** |  **Modern UI**
 
-## 📰 LinkedIn Post
+## LinkedIn Post
 
 Check out the announcement and celebration of this winning project:
 [LinkedIn Post](https://www.linkedin.com/posts/subitha-murugesan_adding-another-win-to-hackathon-season-activity-7419665208748687360-A4ut?utm_source=share&utm_medium=member_desktop&rcm=ACoAACfyd_cBS1bNrbpRnQqT-q7rnRa85rIznUs)
+
 ## Celebrating the Win
 
 This project successfully competed in the AI Hackathon and emerged as the winner! The combination of practical business intelligence, beautiful user interface, and powerful Agentic AI analysis impressed the judges.
 
 Prototype Link : https://aicofounder-c1cea.web.app/
+
 <img width="887" height="826" alt="1" src="https://github.com/user-attachments/assets/1de18f75-e474-403a-9e21-5269ae37b151" />
 <img width="1438" height="807" alt="2" src="https://github.com/user-attachments/assets/f34e923a-6f21-47f9-ba52-c69b27cd55ad" />
 <img width="1435" height="847" alt="3" src="https://github.com/user-attachments/assets/405f90e9-509e-49af-9e3e-b33bcc63586f" />
@@ -180,22 +182,22 @@ For detailed setup and development information, see:
 ## Features
 
 ### Frontend Features
-✅ Interactive idea input interface
-✅ Real-time analysis display
-✅ Multi-step analysis workflow
-✅ Beautiful data visualizations
-✅ Responsive design for all devices
-✅ Dark/Light theme toggle
-✅ Toast notifications
-✅ Drag-and-drop components
+1. Interactive idea input interface
+2. Real-time analysis display
+3. Multi-step analysis workflow
+4. Beautiful data visualizations
+5. Responsive design for all devices
+6. Dark/Light theme toggle
+7. Toast notifications
+8.  Drag-and-drop components
 
 ### Backend Features
-✅ Multi-agent AI system
-✅ Sequential agent execution
-✅ Comprehensive business analysis
-✅ RESTful API with Swagger documentation
-✅ Robust error handling
-✅ Extensible architecture
+1. Multi-agent AI system
+2. Sequential agent execution
+3. Comprehensive business analysis
+4. RESTful API with Swagger documentation
+5.  Robust error handling
+6.  Extensible architecture
 
 ## Deployment
 
